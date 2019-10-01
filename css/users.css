@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272525;
+}
+.nav {
+  position: relative;
+  overflow: hidden;
+  background-color: #686A6D ;
+}
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 8px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav button {
+  background-color: #686A6D;
+  border: none;
+}
+.nav button:hover {
+  background-color: #2e2d2c;
+}
+.nav-right {
+  float: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 50px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+.color-white {
+  color: #39bff1;
+}
+
+.color-grayw {
+  color: #fe8e56;
+}
+.center {
+  text-align: center;
+  color: white;
+}
+.center button {
+  background-color: #2d79fe;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+}
+td button{
+    background-color: #F1CA86;
+    border: none;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+td button:hover{
+    background-color: #95FA6C ;
+}
+
+.search {
+    width: 40%;
+    display: flex;
+    float:right;
+  }
+  
+  .searchBox {
+    width: 100%;
+    border: 3px solid #C7C7C7 ;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+
+  .searchButton {
+    width: 70px;
+    height: 36px;
+    border: 1px solid #2d79fe;
+    background: #2d79fe;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+  }

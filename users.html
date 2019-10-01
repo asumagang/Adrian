@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Users</title>
+    <link rel="stylesheet" href="/css/users.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <a href="#news">Users List</a>
+      <div class="nav-right">
+        <button><a href="index.html">Todo List</a></button>
+      </div>
+    </div>
+    <div>
+      <div class="search">
+        <input type="text" class="searchBox" placeholder="Search" />
+        <button type="submit" class="searchButton">
+          Search
+        </button>
+      </div>
+      <table>
+        <thead class="color-white">
+          <tr>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Occupation</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody class="color-grayw">
+          <tr>
+            <td>1</td>
+            <td>Adrian</td>
+            <td>Sumagang</td>
+            <td>Student</td>
+            <td> <a href="/delete.html"><button>Delete</button></a>  <a href="/userProfile.html"><button>View Profile</button></a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jayson</td>
+            <td>Custodio</td>
+            <td>Student</td>
+            <td><button>Delete</button><a href="/userProfile.html"><button>View Profile</button></a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Vannessa</td>
+            <td>Pasaan</td>
+            <td>Student</td>
+            <td><button>Delete</button><a href="/userProfile.html"><button>View Profile</button></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="center">
+      <button>&lt</button>
+      Page 1/8
+      <button>&gt</button>
+    </div>
+  </body>
+</html>

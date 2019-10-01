@@ -4,49 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Todo App</title>
+    <title>Todos</title>
     <link rel="stylesheet" href="/css/index.css" />
   </head>
   <body>
-    <div class="header bg-gray">
-      <h2>Todo List</h2>
-      <button class="flt-right">View users</button>
+    <div class="nav">
+      <a href="#news">Todos List</a>
+      <div class="nav-right">
+        <button><a href="/users.html">View Users</a></button>
+      </div>
     </div>
-    <div class="table-div">
+    <div>
+        <div class="search">
+          <input type="text" class="searchBox" placeholder="Search" />
+          <button type="submit" class="searchButton">
+            Search
+          </button>
+        </div>
       <table>
-        <thead>
+        <thead class="color-white">
           <tr>
             <th>Id</th>
             <th>Name</th>
             <th>Description</th>
             <th>Status</th>
+            <th>No.of Todos</th>
             <th>Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="color-grayw">
           <tr>
             <td>1</td>
-            <td>Mukaon</td>
-            <td>munganga ang baba</td>
+            <td>Adrian</td>
+            <td>Dance</td>
             <td>Pending</td>
-            <td><button>Delete</button><button>edit</button></td>
+            <td>5</td>
+            <td><a href="http://127.0.0.1:5500/deleteTodo.html"><button>Delete</button></a><button>Edit</button></td>
           </tr>
           <tr>
             <td>2</td>
-            <td>Mukaon</td>
-            <td>munganga ang baba</td>
+            <td>Jayson</td>
+            <td>Dance</td>
             <td>Pending</td>
-            <td><button>Delete</button><button>edit</button></td>
+            <td>5</td>
+            <td> <a href="http://127.0.0.1:5500/deleteTodo.html"><button>Delete</button></a> <button>Edit</button></td>
           </tr>
           <tr>
             <td>3</td>
+            <td>Vannessa</td>
             <td>Mukaon</td>
-            <td>munganga ang baba</td>
-            <td>Pending</td>
-            <td><button>Delete</button><button>edit</button></td>
+            <td>Completed</td>
+            <td>5</td>
+            <td><a href="http://127.0.0.1:5500/deleteTodo.html"><button>Delete</button></a><button>Edit</button></td>
           </tr>
         </tbody>
       </table>
+    </div>
+    <div class="center">
+      <button>&lt</button>
+      Page 1/8
+      <button>&gt</button>
     </div>
   </body>
 </html>
